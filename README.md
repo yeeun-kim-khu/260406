@@ -455,3 +455,4 @@ STATIC_EXHIBIT_INFO = {
 - **크롤링**: requests, BeautifulSoup4
 - **언어**: Python 3.13
 "# 260406" 
+"# 260406" 
