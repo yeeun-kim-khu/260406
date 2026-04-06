@@ -8,4 +8,4 @@ requests>=2.31.0
 tzdata>=2023.3
 chromadb==0.4.22
 pysqlite3-binary
-pydantic==1.10.14
+pydantic==1.10.13
