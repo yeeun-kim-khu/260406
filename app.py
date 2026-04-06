@@ -27,7 +27,7 @@ def main():
 
     with st.sidebar:
         st.title("⚙️ 안내 모드")
-        user_mode = st.radio(["어린이", "청소년/성인"], index=1)
+        user_mode = st.radio("선택해주세요!", ["어린이", "청소년/성인"], index=1)
         if st.button("대화 새로고침 🔄"):
             st.session_state.messages = []
             st.session_state.thread_id = uuid.uuid4().hex
