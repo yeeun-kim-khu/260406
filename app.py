@@ -1,4 +1,12 @@
 # app.py
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    # 윈도우 환경이거나 라이브러리가 없을 때는 그냥 넘어갑니다.
+    pass
+
 import os
 import uuid
 import streamlit as st
