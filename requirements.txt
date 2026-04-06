@@ -8,4 +8,3 @@ requests>=2.31.0
 tzdata>=2023.3
 chromadb==0.4.22
 pysqlite3-binary
-protobuf==3.20.3
